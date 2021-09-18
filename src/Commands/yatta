@@ -1,11 +1,11 @@
 const Command = require("../Structures/Command.js");
 
 module.exports = new Command({
-    name: "hello",
-    description: "Hello!",
+    name: "yatta",
+    description: "yatta!",
     permission: "SEND_MESSAGES",
     
     async run(message, args, client) {
-        message.reply('Hello! <:YelanSwag_Karupin:888553391666647060>');
+        message.reply('<:FuhuaYatta:885675077151121450>');
     }
 })
